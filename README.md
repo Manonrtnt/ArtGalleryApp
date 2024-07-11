@@ -17,21 +17,21 @@ Pour exécuter l'Application Galerie d'Art Virtuelle en local, suivez ces étape
 
 ### Prérequis
 - .NET Core SDK (version 3.1 ou supérieure)
-- Visual Studio (recommandé) ou tout autre éditeur de texte
+- IntelliJ Rider (recommandé, IDE utilisé pour créer le projet), Visual Studio ou tout autre éditeur de texte
 
 ### Installation
 
 1. Clonez le repository sur votre machine locale :
    ```bash
-   git clone https://github.com/votre-nom/galerie-art-virtuelle.git
+   git clone https://github.com/Manonrtnt/ArtGalleryApp.git
    ```
 
 2. Naviguez jusqu'au répertoire du projet :
    ```bash
-   cd galerie-art-virtuelle
+   cd ArtGalleryApp_LinQ_project
    ```
 
-3. Ouvrez le projet dans Visual Studio ou votre IDE préféré.
+3. Ouvrez le projet dans Rider ou Visual Studio.
 
 4. Restaurez les packages NuGet nécessaires :
    - Newtonsoft.Json : Ce package est utilisé pour la sérialisation et désérialisation JSON.
@@ -107,9 +107,7 @@ Pour exécuter l'Application Galerie d'Art Virtuelle en local, suivez ces étape
 ### 6. Ajouter une nouvelle œuvre d'art
 
 - **Fonctionnalité :** Permet aux utilisateurs d'ajouter une nouvelle œuvre d'art à la collection.
-- **Méthode LINQ :** Aucune méthode LINQ directement applicable pour cette fonctionnalité.
 
 ### 7. Télécharger JSON
 
 - **Fonctionnalité :** Télécharge les données des œuvres d'art au format JSON vers un répertoire spécifié.
-- **Méthode LINQ :** Aucune méthode LINQ directement applicable pour cette fonctionnalité.
