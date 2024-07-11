@@ -5,7 +5,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        // Load data from JSON file   
+        // Chargement des données depuis le fichier JSON
         Utils.LoadArtworksFromFiles();
 
         Console.WriteLine("Welcome to the Virtual Art Gallery!");
@@ -61,7 +61,7 @@ class Program
         Console.WriteLine("1. Display all artworks");
         Console.WriteLine("2. Advanced search artworks");
         Console.WriteLine("3. Sort artworks");
-        Console.WriteLine("4. Transform artworks (XML to JSON)");
+        Console.WriteLine("4. Transform artworks (JSON to XML)");
         Console.WriteLine("5. Display artwork statistics");
         Console.WriteLine("6. Add new artwork");
         Console.WriteLine("7. Download JSON");
@@ -140,6 +140,7 @@ class Program
     {
         try
         {
+            // Création du répertoire pour le téléchargement si nécessaire
             string uploadDirectory = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "..", "..", "..", "..", "DataSource", "upload");
             if (!Directory.Exists(uploadDirectory))
             {
