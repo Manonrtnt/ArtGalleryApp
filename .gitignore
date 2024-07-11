@@ -34,3 +34,5 @@
 # Ignore appsettings.json and appsettings.Development.json (for sensitive information)
 appsettings.json
 appsettings.Development.json
+
+
