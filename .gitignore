@@ -1,0 +1,36 @@
+# ArtGalleryApp specific ignores
+/ArtGalleryApp/bin/
+/ArtGalleryApp/obj/
+/ArtGalleryApp/Publish/
+/ArtGalleryApp/*.user
+/ArtGalleryApp/*.suo
+/ArtGalleryApp/*.sln.docstates
+
+# Datasource specific ignores
+/Datasource/bin/
+/Datasource/obj/
+/Datasource/Publish/
+/Datasource/*.user
+/Datasource/*.suo
+/Datasource/*.sln.docstates
+
+# Ignore NuGet packages
+/packages/
+
+# Ignore build output, DLLs, and EXE files
+*.dll
+*.exe
+
+# Ignore logs and other output files
+*.log
+*.csv
+
+# Ignore Rider-specific files
+.idea/
+
+# Ignore macOS specific files
+.DS_Store
+
+# Ignore appsettings.json and appsettings.Development.json (for sensitive information)
+appsettings.json
+appsettings.Development.json
