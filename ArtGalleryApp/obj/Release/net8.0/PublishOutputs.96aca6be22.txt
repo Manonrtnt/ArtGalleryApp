@@ -1,0 +1,8 @@
+F:\MIL\B06 - Developper des logiciels expert\INET410_LINQ\ArtGalleryApp\ArtGalleryApp_LinQ_project\ArtGalleryApp\bin\Release\net8.0\publish\ArtGalleryApp.exe
+F:\MIL\B06 - Developper des logiciels expert\INET410_LINQ\ArtGalleryApp\ArtGalleryApp_LinQ_project\ArtGalleryApp\bin\Release\net8.0\publish\ArtGalleryApp.dll
+F:\MIL\B06 - Developper des logiciels expert\INET410_LINQ\ArtGalleryApp\ArtGalleryApp_LinQ_project\ArtGalleryApp\bin\Release\net8.0\publish\ArtGalleryApp.deps.json
+F:\MIL\B06 - Developper des logiciels expert\INET410_LINQ\ArtGalleryApp\ArtGalleryApp_LinQ_project\ArtGalleryApp\bin\Release\net8.0\publish\ArtGalleryApp.runtimeconfig.json
+F:\MIL\B06 - Developper des logiciels expert\INET410_LINQ\ArtGalleryApp\ArtGalleryApp_LinQ_project\ArtGalleryApp\bin\Release\net8.0\publish\ArtGalleryApp.pdb
+F:\MIL\B06 - Developper des logiciels expert\INET410_LINQ\ArtGalleryApp\ArtGalleryApp_LinQ_project\ArtGalleryApp\bin\Release\net8.0\publish\Newtonsoft.Json.dll
+F:\MIL\B06 - Developper des logiciels expert\INET410_LINQ\ArtGalleryApp\ArtGalleryApp_LinQ_project\ArtGalleryApp\bin\Release\net8.0\publish\DataSource.dll
+F:\MIL\B06 - Developper des logiciels expert\INET410_LINQ\ArtGalleryApp\ArtGalleryApp_LinQ_project\ArtGalleryApp\bin\Release\net8.0\publish\DataSource.pdb
