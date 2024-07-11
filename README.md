@@ -111,3 +111,23 @@ Pour exécuter l'Application Galerie d'Art Virtuelle en local, suivez ces étape
 ### 7. Télécharger JSON
 
 - **Fonctionnalité :** Télécharge les données des œuvres d'art au format JSON vers un répertoire spécifié.
+
+---
+
+## Tester l'application depuis l'exécutable
+
+Pour tester l'application sans avoir à compiler le code, suivez ces étapes simples :
+
+1. **Accès à l'exécutable**
+   - Allez dans le dossier `ArtGalleryApp_LinQ_project\ArtGalleryApp\bin\Release\net8.0\publish`.
+
+2. **Trouver l'exécutable**
+   - Vous y trouverez l'exécutable de l'application, par exemple `ArtGalleryApp.exe`.
+
+3. **Lancer l'application**
+   - Double-cliquez sur `ArtGalleryApp.exe` pour démarrer l'application.
+
+4. **Utiliser l'application**
+   - Explorez les différentes fonctionnalités comme l'affichage des œuvres d'art, les recherches avancées et l'ajout de nouvelles œuvres.
+
+---
