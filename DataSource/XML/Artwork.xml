@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<artworks>
+  <artwork>
+    <title>Starry Night</title>
+    <artist>Vincent van Gogh</artist>
+    <year>1889</year>
+    <style>Post-Impressionism</style>
+  </artwork>
+  <artwork>
+    <title>Mona Lisa</title>
+    <artist>Leonardo da Vinci</artist>
+    <year>1503</year>
+    <style>Renaissance</style>
+  </artwork>
+  <artwork>
+    <title>The Persistence of Memory</title>
+    <artist>Salvador Dalí</artist>
+    <year>1931</year>
+    <style>Surrealism</style>
+  </artwork>
+  <artwork>
+    <title>Girl with a Pearl Earring</title>
+    <artist>Johannes Vermeer</artist>
+    <year>1665</year>
+    <style>Baroque</style>
+  </artwork>
+  <artwork>
+    <title>The Scream</title>
+    <artist>Edvard Munch</artist>
+    <year>1893</year>
+    <style>Expressionism</style>
+  </artwork>
+  <artwork>
+    <title>Water Lilies</title>
+    <artist>Claude Monet</artist>
+    <year>1916</year>
+    <style>Impressionism</style>
+  </artwork>
+  <artwork>
+    <title>Guernica</title>
+    <artist>Pablo Picasso</artist>
+    <year>1937</year>
+    <style>Cubism</style>
+  </artwork>
+  <artwork>
+    <title>The Birth of Venus</title>
+    <artist>Sandro Botticelli</artist>
+    <year>1486</year>
+    <style>Early Renaissance</style>
+  </artwork>
+  <artwork>
+    <title>Les Demoiselles d'Avignon</title>
+    <artist>Pablo Picasso</artist>
+    <year>1907</year>
+    <style>Cubism</style>
+  </artwork>
+  <artwork>
+    <title>The Great Wave off Kanagawa</title>
+    <artist>Katsushika Hokusai</artist>
+    <year>1831</year>
+    <style>Japanese Ukiyo-e</style>
+  </artwork>
+  <artwork>
+    <title>The Kiss</title>
+    <artist>Gustav Klimt</artist>
+    <year>1907</year>
+    <style>Symbolism</style>
+  </artwork>
+  <artwork>
+    <title>American Gothic</title>
+    <artist>Grant Wood</artist>
+    <year>1930</year>
+    <style>Regionalism</style>
+  </artwork>
+  <artwork>
+    <title>The Thinker</title>
+    <artist>Auguste Rodin</artist>
+    <year>1904</year>
+    <style>Impressionism</style>
+  </artwork>
+  <artwork>
+    <title>The Last Supper</title>
+    <artist>Leonardo da Vinci</artist>
+    <year>1498</year>
+    <style>Renaissance</style>
+  </artwork>
+  <artwork>
+    <title>The Night Watch</title>
+    <artist>Rembrandt</artist>
+    <year>1642</year>
+    <style>Baroque</style>
+  </artwork>
+  <artwork>
+    <title>The Sleeping Gypsy</title>
+    <artist>Henri Rousseau</artist>
+    <year>1897</year>
+    <style>Naïve Art</style>
+  </artwork>
+  <artwork>
+    <title>The Dance</title>
+    <artist>Henri Matisse</artist>
+    <year>1910</year>
+    <style>Fauvism</style>
+  </artwork>
+  <artwork>
+    <title>Nighthawks</title>
+    <artist>Edward Hopper</artist>
+    <year>1942</year>
+    <style>Realism</style>
+  </artwork>
+  <artwork>
+    <title>Sunflowers</title>
+    <artist>Vincent van Gogh</artist>
+    <year>1888</year>
+    <style>Post-Impressionism</style>
+  </artwork>
+  <artwork>
+    <title>The Arnolfini Portrait</title>
+    <artist>Jan van Eyck</artist>
+    <year>1434</year>
+    <style>Northern Renaissance</style>
+  </artwork>
+  <artwork>
+    <title>The Garden of Earthly Delights</title>
+    <artist>Hieronymus Bosch</artist>
+    <year>1490</year>
+    <style>Northern Renaissance</style>
+  </artwork>
+  <artwork>
+    <title>The School of Athens</title>
+    <artist>Raphael</artist>
+    <year>1511</year>
+    <style>High Renaissance</style>
+  </artwork>
+  <artwork>
+    <title>Las Meninas</title>
+    <artist>Diego Velázquez</artist>
+    <year>1656</year>
+    <style>Baroque</style>
+  </artwork>
+  <artwork>
+    <title>Bathers at Asnières</title>
+    <artist>Georges Seurat</artist>
+    <year>1884</year>
+    <style>Pointillism</style>
+  </artwork>
+  <artwork>
+    <title>The Wanderer Above the Sea of Fog</title>
+    <artist>Caspar David Friedrich</artist>
+    <year>1818</year>
+    <style>Romanticism</style>
+  </artwork>
+  <artwork>
+    <title>A Sunday Afternoon on the Island of La Grande Jatte</title>
+    <artist>Georges Seurat</artist>
+    <year>1884</year>
+    <style>Pointillism</style>
+  </artwork>
+  <artwork>
+    <title>Olympia</title>
+    <artist>Édouard Manet</artist>
+    <year>1863</year>
+    <style>Realism</style>
+  </artwork>
+  <artwork>
+    <title>The Third of May 1808</title>
+    <artist>Francisco Goya</artist>
+    <year>1814</year>
+    <style>Romanticism</style>
+  </artwork>
+  <artwork>
+    <title>The Dream</title>
+    <artist>Henri Rousseau</artist>
+    <year>1910</year>
+    <style>Naïve Art</style>
+  </artwork>
+  <artwork>
+    <title>The Gleaners</title>
+    <artist>Jean-François Millet</artist>
+    <year>1857</year>
+    <style>Realism</style>
+  </artwork>
+  <artwork>
+    <title>Arrangement in Grey and Black No.1</title>
+    <artist>James McNeill Whistler</artist>
+    <year>1871</year>
+    <style>Aestheticism</style>
+  </artwork>
+  <artwork>
+    <title>The Hay Wain</title>
+    <artist>John Constable</artist>
+    <year>1821</year>
+    <style>Romanticism</style>
+  </artwork>
+  <artwork>
+    <title>Whistler's Mother</title>
+    <artist>James McNeill Whistler</artist>
+    <year>1871</year>
+    <style>Realism</style>
+  </artwork>
+  <artwork>
+    <title>Portrait of Adele Bloch-Bauer I</title>
+    <artist>Gustav Klimt</artist>
+    <year>1907</year>
+    <style>Symbolism</style>
+  </artwork>
+  <artwork>
+    <title>Nude Descending a Staircase, No. 2</title>
+    <artist>Marcel Duchamp</artist>
+    <year>1912</year>
+    <style>Cubism</style>
+  </artwork>
+  <artwork>
+    <title>The Creation of Adam</title>
+    <artist>Michelangelo</artist>
+    <year>1512</year>
+    <style>High Renaissance</style>
+  </artwork>
+  <artwork>
+    <title>Broadway Boogie Woogie</title>
+    <artist>Piet Mondrian</artist>
+    <year>1942</year>
+    <style>De Stijl</style>
+  </artwork>
+  <artwork>
+    <title>The Birth of Venus</title>
+    <artist>Sandro Botticelli</artist>
+    <year>1486</year>
+    <style>Early Renaissance</style>
+  </artwork>
+  <artwork>
+    <title>Test add</title>
+    <artist>Manon</artist>
+    <year>2024</year>
+    <style>Abstrait</style>
+  </artwork>
+</artworks>

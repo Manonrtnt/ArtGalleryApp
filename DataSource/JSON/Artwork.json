@@ -1,0 +1,236 @@
+[
+  {
+    "Title": "Starry Night",
+    "Artist": "Vincent van Gogh",
+    "Year": 1889,
+    "Style": "Post-Impressionism"
+  },
+  {
+    "Title": "Mona Lisa",
+    "Artist": "Leonardo da Vinci",
+    "Year": 1503,
+    "Style": "Renaissance"
+  },
+  {
+    "Title": "The Persistence of Memory",
+    "Artist": "Salvador Dalí",
+    "Year": 1931,
+    "Style": "Surrealism"
+  },
+  {
+    "Title": "Girl with a Pearl Earring",
+    "Artist": "Johannes Vermeer",
+    "Year": 1665,
+    "Style": "Baroque"
+  },
+  {
+    "Title": "The Scream",
+    "Artist": "Edvard Munch",
+    "Year": 1893,
+    "Style": "Expressionism"
+  },
+  {
+    "Title": "Water Lilies",
+    "Artist": "Claude Monet",
+    "Year": 1916,
+    "Style": "Impressionism"
+  },
+  {
+    "Title": "Guernica",
+    "Artist": "Pablo Picasso",
+    "Year": 1937,
+    "Style": "Cubism"
+  },
+  {
+    "Title": "The Birth of Venus",
+    "Artist": "Sandro Botticelli",
+    "Year": 1486,
+    "Style": "Early Renaissance"
+  },
+  {
+    "Title": "Les Demoiselles d'Avignon",
+    "Artist": "Pablo Picasso",
+    "Year": 1907,
+    "Style": "Cubism"
+  },
+  {
+    "Title": "The Great Wave off Kanagawa",
+    "Artist": "Katsushika Hokusai",
+    "Year": 1831,
+    "Style": "Japanese Ukiyo-e"
+  },
+  {
+    "Title": "The Kiss",
+    "Artist": "Gustav Klimt",
+    "Year": 1907,
+    "Style": "Symbolism"
+  },
+  {
+    "Title": "American Gothic",
+    "Artist": "Grant Wood",
+    "Year": 1930,
+    "Style": "Regionalism"
+  },
+  {
+    "Title": "The Thinker",
+    "Artist": "Auguste Rodin",
+    "Year": 1904,
+    "Style": "Impressionism"
+  },
+  {
+    "Title": "The Last Supper",
+    "Artist": "Leonardo da Vinci",
+    "Year": 1498,
+    "Style": "Renaissance"
+  },
+  {
+    "Title": "The Night Watch",
+    "Artist": "Rembrandt",
+    "Year": 1642,
+    "Style": "Baroque"
+  },
+  {
+    "Title": "The Sleeping Gypsy",
+    "Artist": "Henri Rousseau",
+    "Year": 1897,
+    "Style": "Naïve Art"
+  },
+  {
+    "Title": "The Dance",
+    "Artist": "Henri Matisse",
+    "Year": 1910,
+    "Style": "Fauvism"
+  },
+  {
+    "Title": "Nighthawks",
+    "Artist": "Edward Hopper",
+    "Year": 1942,
+    "Style": "Realism"
+  },
+  {
+    "Title": "Sunflowers",
+    "Artist": "Vincent van Gogh",
+    "Year": 1888,
+    "Style": "Post-Impressionism"
+  },
+  {
+    "Title": "The Arnolfini Portrait",
+    "Artist": "Jan van Eyck",
+    "Year": 1434,
+    "Style": "Northern Renaissance"
+  },
+  {
+    "Title": "The Garden of Earthly Delights",
+    "Artist": "Hieronymus Bosch",
+    "Year": 1490,
+    "Style": "Northern Renaissance"
+  },
+  {
+    "Title": "The School of Athens",
+    "Artist": "Raphael",
+    "Year": 1511,
+    "Style": "High Renaissance"
+  },
+  {
+    "Title": "Las Meninas",
+    "Artist": "Diego Velázquez",
+    "Year": 1656,
+    "Style": "Baroque"
+  },
+  {
+    "Title": "Bathers at Asnières",
+    "Artist": "Georges Seurat",
+    "Year": 1884,
+    "Style": "Pointillism"
+  },
+  {
+    "Title": "The Wanderer Above the Sea of Fog",
+    "Artist": "Caspar David Friedrich",
+    "Year": 1818,
+    "Style": "Romanticism"
+  },
+  {
+    "Title": "A Sunday Afternoon on the Island of La Grande Jatte",
+    "Artist": "Georges Seurat",
+    "Year": 1884,
+    "Style": "Pointillism"
+  },
+  {
+    "Title": "Olympia",
+    "Artist": "Édouard Manet",
+    "Year": 1863,
+    "Style": "Realism"
+  },
+  {
+    "Title": "The Third of May 1808",
+    "Artist": "Francisco Goya",
+    "Year": 1814,
+    "Style": "Romanticism"
+  },
+  {
+    "Title": "The Dream",
+    "Artist": "Henri Rousseau",
+    "Year": 1910,
+    "Style": "Naïve Art"
+  },
+  {
+    "Title": "The Gleaners",
+    "Artist": "Jean-François Millet",
+    "Year": 1857,
+    "Style": "Realism"
+  },
+  {
+    "Title": "Arrangement in Grey and Black No.1",
+    "Artist": "James McNeill Whistler",
+    "Year": 1871,
+    "Style": "Aestheticism"
+  },
+  {
+    "Title": "The Hay Wain",
+    "Artist": "John Constable",
+    "Year": 1821,
+    "Style": "Romanticism"
+  },
+  {
+    "Title": "Whistler's Mother",
+    "Artist": "James McNeill Whistler",
+    "Year": 1871,
+    "Style": "Realism"
+  },
+  {
+    "Title": "Portrait of Adele Bloch-Bauer I",
+    "Artist": "Gustav Klimt",
+    "Year": 1907,
+    "Style": "Symbolism"
+  },
+  {
+    "Title": "Nude Descending a Staircase, No. 2",
+    "Artist": "Marcel Duchamp",
+    "Year": 1912,
+    "Style": "Cubism"
+  },
+  {
+    "Title": "The Creation of Adam",
+    "Artist": "Michelangelo",
+    "Year": 1512,
+    "Style": "High Renaissance"
+  },
+  {
+    "Title": "Broadway Boogie Woogie",
+    "Artist": "Piet Mondrian",
+    "Year": 1942,
+    "Style": "De Stijl"
+  },
+  {
+    "Title": "The Birth of Venus",
+    "Artist": "Sandro Botticelli",
+    "Year": 1486,
+    "Style": "Early Renaissance"
+  },
+  {
+    "Title": "Test add",
+    "Artist": "Manon",
+    "Year": 2024,
+    "Style": "Abstrait"
+  }
+]
