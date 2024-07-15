@@ -151,8 +151,6 @@ class Program
             string filePath = Path.Combine(uploadDirectory, fileName);
 
             Utils.DownloadJsonFile(filePath);
-
-            Console.WriteLine($"JSON file downloaded to: {filePath}");
         }
         catch (Exception ex)
         {
