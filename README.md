@@ -115,9 +115,6 @@ Pour exécuter l'Application Galerie d'Art Virtuelle en local, suivez ces étape
 ---
 
 ## Tester l'application depuis l'exécutable
-
-Pour tester l'application sans avoir à compiler le code, suivez ces étapes simples :
-
 1. **Accès à l'exécutable**
    - Allez dans le dossier `ArtGalleryApp_LinQ_project\ArtGalleryApp\bin\Release\net8.0\publish`.
 
