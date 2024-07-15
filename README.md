@@ -32,8 +32,9 @@ Pour exécuter l'Application Galerie d'Art Virtuelle en local, suivez ces étape
    ```
 
 3. Ouvrez le projet dans Rider ou Visual Studio.
+- ouvrir le fichier de solution de projet : ArtGalleryApp.sln
 
-4. Restaurez les packages NuGet nécessaires :
+4. Restaurez les packages NuGet si nécessaires :
    - Newtonsoft.Json : Ce package est utilisé pour la sérialisation et désérialisation JSON.
 
    ```bash
