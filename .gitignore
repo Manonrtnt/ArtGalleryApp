@@ -6,13 +6,13 @@
 /ArtGalleryApp/*.suo
 /ArtGalleryApp/*.sln.docstates
 
-# Datasource specific ignores
-/Datasource/bin/
-/Datasource/obj/
-/Datasource/Publish/
-/Datasource/*.user
-/Datasource/*.suo
-/Datasource/*.sln.docstates
+# DataSource specific ignores
+/DataSource/bin/
+/DataSource/obj/
+/DataSource/Publish/
+/DataSource/*.user
+/DataSource/*.suo
+/DataSource/*.sln.docstates
 
 # Ignore NuGet packages
 /packages/
