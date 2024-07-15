@@ -22,8 +22,7 @@ public static class Utils
             if (File.Exists(jsonFilePath))
             {
                 string jsonContent = File.ReadAllText(jsonFilePath);
-                var artworksWrapper = JsonConvert.DeserializeObject<ArtworksWrapper>(jsonContent);
-                artworks.AddRange(artworksWrapper.Artworks);
+                artworks = JsonConvert.DeserializeObject<List<Artwork>>(jsonContent);
             }
         }
         catch (Exception ex)
@@ -56,26 +55,18 @@ public static class Utils
     {
         try
         {
-            JObject jsonContent = JObject.Parse(File.ReadAllText(sourceFilePathJson));
+            JArray jsonContent = JArray.Parse(File.ReadAllText(sourceFilePathJson));
 
-            JToken artworksToken;
-            if (jsonContent.TryGetValue("artworks", out artworksToken))
-            {
-                List<Artwork> artworksToTransform = artworksToken.ToObject<List<Artwork>>();
+            List<Artwork> artworksToTransform = jsonContent.ToObject<List<Artwork>>();
 
-                // Transformation des données JSON en XML
-                XDocument xmlOutput = new XDocument(
-                    new XElement("artworks",
-                        artworksToTransform.Select(a => XElement.Parse(a.ToXmlString()))
-                    )
-                );
-                xmlOutput.Save(destinationFilePathXml);
-                Console.WriteLine($"JSON data transformed and saved as XML to {destinationFilePathXml}");
-            }
-            else
-            {
-                Console.WriteLine("No 'artworks' array found in JSON.");
-            }
+            // Transformation des données JSON en XML
+            XDocument xmlOutput = new XDocument(
+                new XElement("artworks",
+                    artworksToTransform.Select(a => XElement.Parse(a.ToXmlString()))
+                )
+            );
+            xmlOutput.Save(destinationFilePathXml);
+            Console.WriteLine($"JSON data transformed and saved as XML to {destinationFilePathXml}");
         }
         catch (Exception ex)
         {
@@ -128,36 +119,20 @@ public static class Utils
         }
     }
 
-    // Affichage des résultats de recherche
     public static void DisplaySearchResults(IEnumerable<Artwork> results)
     {
-        if (results.Any())
+        Console.WriteLine("Search Results:");
+        foreach (var artwork in results)
         {
-            Console.WriteLine("Search Results:");
-            foreach (var result in results)
-            {
-                Console.WriteLine(result);
-            }
+            Console.WriteLine(artwork);
         }
-        else
-        {
-            Console.WriteLine("No results found.");
-        }
-    }
-
-    // Affichage du nombre total d'œuvres
-    public static void DisplayTotalArtwork()
-    {
-        int totalArtworks = artworks.Count();
-        Console.WriteLine($"Total number of artworks: {totalArtworks}");
     }
 
     // Ajout d'une nouvelle œuvre
-    public static void AddArtwork(Artwork artwork)
+    public static void AddArtwork(Artwork newArtwork)
     {
-        artworks.Add(artwork);
-        SaveArtworksToXml(pathXmlFile); // Mise à jour du fichier XML après l'ajout d'une œuvre
-        SaveArtworksToJson(pathJsonFile); // Mise à jour du fichier JSON après l'ajout d'une œuvre
+        artworks.Add(newArtwork);
+        SaveArtworksToJson(pathJsonFile);
     }
 
     // Sauvegarde des œuvres au format JSON
@@ -165,9 +140,8 @@ public static class Utils
     {
         try
         {
-            string jsonOutput = JsonConvert.SerializeObject(artworks, Formatting.Indented);
-            File.WriteAllText(filePath, jsonOutput);
-            Console.WriteLine($"Artworks saved as JSON to {filePath}");
+            string jsonContent = JsonConvert.SerializeObject(artworks, Formatting.Indented);
+            File.WriteAllText(filePath, jsonContent);
         }
         catch (Exception ex)
         {
@@ -176,17 +150,23 @@ public static class Utils
     }
 
     // Téléchargement du fichier JSON
-    public static void DownloadJsonFile(string filePath)
+    public static void DownloadJsonFile(string destinationFilePath)
     {
         try
         {
-            string jsonOutput = JsonConvert.SerializeObject(artworks, Formatting.Indented);
-            File.WriteAllText(filePath, jsonOutput);
+            SaveArtworksToJson(destinationFilePath);
+            Console.WriteLine($"JSON file downloaded to: {destinationFilePath}");
         }
         catch (Exception ex)
         {
-            Console.WriteLine($"Error saving artworks as JSON: {ex.Message}");
+            Console.WriteLine($"Error downloading JSON file: {ex.Message}");
         }
     }
-}
 
+    // Affichage du nombre total d'œuvres d'art
+    public static void DisplayTotalArtwork()
+    {
+        int totalArtworks = artworks.Count();
+        Console.WriteLine($"Total number of artworks: {totalArtworks}");
+    }
+}
